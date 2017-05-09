@@ -37,6 +37,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
         "michael jackson",
+        "regal",
         "abstraction",
         "ambiguous",
         "arithmetic",
@@ -78,13 +79,13 @@ final class StaticWordLibrary extends WordLibrary {
         "management",
         "manipulate",
         "mathematics",
-        "hotjava",
         "vertex",
         "unsigned",
         "traditional"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "naja milchsocke",
+        "lager",
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
@@ -126,7 +127,6 @@ final class StaticWordLibrary extends WordLibrary {
         "amanegemtn",
         "aminupalet",
         "amhtmetacsi",
-        "ohjtvaa",
         "evtrxe",
         "nuisngde",
         "rtdatioialn"
@@ -174,7 +174,7 @@ final class StaticWordLibrary extends WordLibrary {
      * @return true if the guess was correct; false otherwise
      */
     public boolean isCorrect(int idx, String userGuess) {
-        return userGuess.equals(getWord(idx));
+        return userGuess.equalsIgnoreCase(getWord(idx));
     }
 
 }
