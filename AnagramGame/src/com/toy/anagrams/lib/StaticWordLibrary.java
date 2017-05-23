@@ -37,6 +37,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
         "michael jackson",
+        "anna",
         "regal",
         "abstraction",
         "ambiguous",
@@ -85,6 +86,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "naja milchsocke",
+        "anna",
         "lager",
         "batsartcoin",
         "maibuguos",
