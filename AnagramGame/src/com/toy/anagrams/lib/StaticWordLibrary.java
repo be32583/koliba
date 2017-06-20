@@ -115,7 +115,7 @@ final class StaticWordLibrary extends WordLibrary {
         "niidtsniugsiahleb",
         "niehiratcen",
         "nietnret",
-        "ajav",
+        "ajva",
         "olacilazitno",
         "imrcpoorecssro",
         "anivagitno",
