@@ -86,7 +86,9 @@ final class StaticWordLibrary extends WordLibrary {
         "mathematics",
         "vertex",
         "unsigned",
-        "traditional"};
+        "traditional",
+        "Tragen"
+    };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "Neger",
@@ -139,7 +141,8 @@ final class StaticWordLibrary extends WordLibrary {
         "amhtmetacsi",
         "evtrxe",
         "nuisngde",
-        "rtdatioialn"
+        "rtdatioialn",
+        "Garten"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
